@@ -13,6 +13,7 @@ click-plugins==1.1.1
 click-repl==0.3.0
 cryptography==41.0.3
 defusedxml==0.7.1
+dj-config-url==0.1.1
 Django==3.2.13
 django-allauth==0.55.0
 django-debug-toolbar==4.2.0
@@ -50,4 +51,4 @@ tzdata==2023.3
 urllib3==2.0.4
 vine==5.0.0
 wcwidth==0.2.6
-whitenoise==6.0.0
+whitenoise==3.3.1
