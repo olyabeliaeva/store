@@ -1,6 +1,7 @@
 amqp==5.1.1
 asgiref==3.7.2
 async-timeout==4.0.3
+backports.zoneinfo==0.2.1
 billiard==4.1.0
 celery==5.3.4
 certifi==2023.7.22
@@ -49,3 +50,4 @@ tzdata==2023.3
 urllib3==2.0.4
 vine==5.0.0
 wcwidth==0.2.6
+whitenoise==3.3.1
