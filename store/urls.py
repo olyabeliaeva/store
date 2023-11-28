@@ -22,7 +22,7 @@ from orders.views import stripe_webhook_view
 from products.views import IndexViews
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    #path('admin/', admin.site.urls),
     path('', IndexViews.as_view(), name='index'),
     path('products/', include('products.urls', namespace='products')),
     path('users/', include('users.urls', namespace='users')),
