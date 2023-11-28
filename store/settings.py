@@ -205,16 +205,16 @@ LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
 
 # Sending emails
-if DEBUG:
-    EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackends'
-else:
-    EMAIL_HOST = env('EMAIL_HOST')
-    EMAIL_PORT = env('EMAIL_PORT')
-    EMAIL_HOST_USER = env('EMAIL_HOST_USER')
-    EMAIL_HOST_PASSWORD = env('EMAIL_HOST_PASSWORD')
-    EMAIL_USE_SSL = env('EMAIL_USE_SSL')
+# if DEBUG:
+#     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackends'
+# else:
+#     EMAIL_HOST = env('EMAIL_HOST')
+#     EMAIL_PORT = env('EMAIL_PORT')
+#     EMAIL_HOST_USER = env('EMAIL_HOST_USER')
+#     EMAIL_HOST_PASSWORD = env('EMAIL_HOST_PASSWORD')
+#     EMAIL_USE_SSL = env('EMAIL_USE_SSL')
 
-# EMAIL_BACKEND='django.core.mail.backends.console.EmailBackends'
+EMAIL_BACKEND='django.core.mail.backends.console.EmailBackends'
 
 # OAuth
 
